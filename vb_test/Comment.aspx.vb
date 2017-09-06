@@ -10,7 +10,7 @@ Public Class Comment
         UnobtrusiveValidationMode = UnobtrusiveValidationMode.None
         Dim connectionString As String = CType(AppSettings("connectionString"), String)
         Using conn As New SqlClient.SqlConnection(connectionString)
-            Using cmdObj As New SqlClient.SqlCommand("select * from VBComment", conn)
+            Using cmdObj As New SqlClient.SqlCommand("select * from VBComment order by date desc", conn)
                 conn.Open()
                 Using readerObj As SqlClient.SqlDataReader = cmdObj.ExecuteReader
                     'This will loop through all returned records 

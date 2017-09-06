@@ -6,7 +6,8 @@
             <div class="callout callout-success">
                 <h4>VB.NET Demo</h4>
                 <p>This website is built by VB.NET for Chia-Hua Lin to apply .NET developer position in WWF.</p>
-                <p>Source code:<a href="https://github.com/lin2497/vb_test">https://github.com/lin2497/vb_test</a></p>
+                <p>The database is hosted on Azure.</p>
+                <p>Source code: <a href="https://github.com/lin2497/vb_test" target="_blank" >https://github.com/lin2497/vb_test</a></p>
             </div>
         </div>
     </div>
